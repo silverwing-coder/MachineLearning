@@ -4,5 +4,5 @@
 
 <br/><h3>1. Deep Learning: Modelling with TensorFlow</h3>
 
--   [TensorFlow Practice Note](TensorFlowPractice.md)
+-   [TensorFlow Practice Notes](TensorFlowPractice.md)
 
