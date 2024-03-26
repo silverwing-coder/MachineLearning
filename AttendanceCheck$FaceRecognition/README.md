@@ -1,5 +1,5 @@
 <h6>ver. Mar-2024</h6>
-<h2> Class Attendance System on Face Recognition & Database</h2>
+<h2> Class Attendance Check System on Face Recognition & Database</h2>
 
 <!-- <br/>:point_right: [Back to README Page](./README.md) </li> -->
 
