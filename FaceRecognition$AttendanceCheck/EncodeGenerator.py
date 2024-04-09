@@ -24,7 +24,7 @@ def getEncodings(imgList):
 def generateEncodes():
 
     ''' importing student images'''
-    folderPath = 'Images'
+    folderPath = 'Images/cis112'
     imgFileList = os.listdir(folderPath)
     # print(imgFileList)
 
@@ -40,11 +40,11 @@ def generateEncodes():
     print("Encoding Started.")
     encodeListKnown = getEncodings(imgList)
     encodeListKnowWithIDs = [encodeListKnown, studentIDs]
-    # print(encodeListKnown)
+    # print(encodeListKnowWithIDs)
     print("Encoding Completed.")
 
     ''' save encoding data into a file'''
-    outFile = open("EncodeFile.p", 'wb')
+    outFile = open("EncodeFile.cis112", 'wb')
     pickle.dump(encodeListKnowWithIDs, outFile)
     outFile.close()
     print("Encoding File Saved.")

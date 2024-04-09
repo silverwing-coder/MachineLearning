@@ -48,11 +48,13 @@ def initialize_students_table(cursor, data):
 
 def setupDatabaseMain():
     # connector = sqlite3.connect(':memory:')
-    connector = sqlite3.connect('students.db')
+    # connector = sqlite3.connect('students.db')
+    connector = sqlite3.connect('CIS112Students.db')
     cursor = connector.cursor()
 
     ''' database source file : students_data.json '''
-    file = open("Resources/students_data.json")
+    # file = open("Resources/students_data.json")
+    file = open("Resources/CIS112StudentsData.json")
     data = json.load(file)
     file.close()
     # print(list(data))
@@ -64,7 +66,7 @@ def setupDatabaseMain():
     initialize_students_table(cursor, data)
 
     ''' check database setup '''
-    cursor.execute("SELECT * FROM Students WHERE standing='G'")
+    cursor.execute("SELECT * FROM Students WHERE section='3'")
     print(cursor.fetchall())
 
     connector.close()
