@@ -12,15 +12,13 @@
     -   PIL
     -   Tkinter
 
-
 <br/><h4>2. Features</h4>
 
 -   Select modes: Detection, Tracking, and Pose Estimation
--   Select classes interested: person, dog, cat, cell-phone, etc. 
+-   Select classes interested: person, dog, cat, cell-phone, etc.
 
--   Demo Screen <br> 
-<img src="screen_shot_detection_mode.png" alt="DEMO IMAGE" style="width=400px;" />
-
+-   Demo Screen <br>
+    <img src="screen_shot_detection_mode.png" alt="DEMO IMAGE" style="width=600px;" />
 
 <br/><h4>3. Source Codes</h4>
 

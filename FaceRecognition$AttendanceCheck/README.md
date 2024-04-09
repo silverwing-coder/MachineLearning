@@ -10,7 +10,7 @@
 <!-- :point_right: [Murtaza's Workshop](https://www.youtube.com/watch?v=iBomaK2ARyI)  -->
 
 :point_right: [Reading Material](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78) : "Machine Learning is Fun! Part 4: Modern Face Recognition with Deep learning"
-
+<br>
 <u><h4>2. Implementation steps </h4></u>
 
 <ol>
@@ -26,8 +26,10 @@
     <li> Limit number of attendance per day </li>
 </ol>
 
+<br>
 <u><h4>3. Source Codes (Python) and Data Files </h4></u>
 
+<br>
 <ul>
     <li> Image files: 
         <ul>
@@ -42,5 +44,9 @@
     <li> EncodeGenrartor.py </li>
     <li> MainAttendanceSystem.py </li>
 </ul>
+
+<br>
+<u><h4>4. Demo Screen </h4></u>
+<img src="screen_shot_attendance_system.png" alt="DEMO IMAGE" style="width=600px;" />
 
 ---
