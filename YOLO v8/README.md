@@ -1,11 +1,4 @@
 <h4>ver. Dec-2023</h4>
-<style>
-    h2 {color:Yellow; font-family: "Aerial"}
-    h3 {color:cyan; font-family: "Aerial"}
-    h4 {color:Orange; font-family: "Aerial"}
-    p {margin-left: 20px; font-size: 15px}
-    li {font-size: 15px}
-</style>
 
 <h2 > YOLO from Ultralytics</h2>
 <p>$ Refer to .... <a href = "https://docs.ultralytics.com/">Ultralytics YOLO Document</a></p>
@@ -34,11 +27,11 @@ print(model.names)
 <li>Pose Estimation</li>
 <p>$ Refer to .... <a href="https://docs.ultralytics.com/tasks/pose/">YOLO Pose Estimation</a> </p>
 
-<p><img src="images/YoloPoseEstimationKeypointsMap.jpg"
+<p><img src="./images/YoloPoseEstimationKeypointsMap.jpg"
      alt="Pose Estimation Keypoints"
      width="400" height="auto"/> </p>
 
 <li>Bounding Box Object Detection</li>
-<p>$ Refer to .... <a href="https://docs.ultralytics.com/tasks/obb/">YOLO Object Tracking</a> </p>
+<p>$ Refer to .... <a href="https://docs.ultralytics.com/tasks/obb/">YOLO Object Box</a> </p>
 </ul>
 
